@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registre – PocketBuddy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+  <main class="pantalla">
+
+    <section class="targeta">
+      <h2>Crea la teva partida</h2>
+      <p class="targeta__intro">Escriu el teu nom i posa-li nom a la mascota.</p>
+
+      <form id="form-registre" action="#" method="post">
+        <div class="camp">
+          <label for="nom-jugador">El teu nom</label>
+          <input type="text" id="nom-jugador" name="nom_jugador" placeholder="Jugador1" maxlength="20" required autocomplete="nickname">
+        </div>
+
+        <div class="camp">
+          <label for="nom-mascota">Nom de la mascota</label>
+          <input type="text" id="nom-mascota" name="nom_mascota" placeholder="Bubu" maxlength="20" required>
+          <span class="camp__ajuda">Fins a 20 caràcters.</span>
+        </div>
+
+        <button type="submit" class="boto boto--ample">Crea la partida</button>
+      </form>
+    </section>
+
+    <p class="peu"><a class="enllac" href="../index.html">Torna a l’inici</a></p>
+  </main>
+</body>
+</html>
